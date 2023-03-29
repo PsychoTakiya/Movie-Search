@@ -13,7 +13,7 @@ function SearchFeed() {
       setItems(data.results);
       console.log(data);
     });
-  }, []);
+  }, [searchTerm]);
   console.log(items);
 
   return (
